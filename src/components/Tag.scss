@@ -1,0 +1,36 @@
+[class*='tag--'],
+.tag {
+  background-color: #ececec;
+  padding: 0.1rem 0.5rem;
+  display: inline-block;
+  border-radius: 1.2em;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  padding-bottom: 0.25rem;
+
+  &[class*='--html'] {
+    background-color: lightcoral;
+  }
+
+  &[class*='--css'] {
+    background-color: lightgreen;
+  }
+
+  &[class*='--javascript'] {
+    background-color: lightblue;
+  }
+
+  &[class*='--devtools'] {
+    background-color: palegoldenrod;
+  }
+
+  &[class*='--webgl'] {
+    background-color: thistle;
+  }
+
+  &[class*='--website'] {
+    background-color: saddlebrown;
+    color: white;
+  }
+}

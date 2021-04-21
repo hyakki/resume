@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto+Condensed:wght@700&display=swap');
+$spacing: 2rem;
+
+$fb: 1rem;
+$pr: .5;
+
+.app {
+  padding: 6.5vw 0;
+  font-size: $fb;
+  font-family: 'Roboto Mono', monospace;
+
+  @media print { font-size: $fb * $pr; }
+
+  h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-size: $fb * 2.6;
+
+    @media print { font-size: $fb * 2.6 * $pr; }
+
+    small {
+      display: block;
+      font-size: 0.55em;
+    }
+  }
+
+  h2 {
+    font-size: $fb * 2.6;
+
+    @media print { font-size: $fb * 2.6 * $pr; }
+  }
+
+  h3 {
+    font-size: $fb * 1.4;
+
+    @media print { font-size: $fb * 1.4 * $pr; }
+  }
+}
+
+.app-inner {
+  width: 87%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.section {
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  & + & {
+    margin-top: $spacing * 3;
+
+    @media print { margin-top: $spacing * 3 * $pr; }
+  }
+}
+
+[class*='list--'],
+.list {
+  padding: 0 0 0 1.2em;
+  margin: 0;
+
+  &[class*='list--nostyle'] {
+    list-style: none;
+    padding: 0;
+
+    @media print { column-count: 2; }
+  }
+}
+
+.list__item {
+  & + & {
+    margin-top: $spacing / 2;
+
+    @media print { margin-top: $spacing / 2 * $pr; }
+  }
+
+  [class*='list--'][class*='--nostyle'] & + & {
+    margin-top: $spacing;
+
+    @media print { margin-top: $spacing * $pr; }
+  }
+}
+
+.publication__project ,
+.skill__title ,
+.training__title ,
+.pro__job {
+  margin: 0;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', monospace;
+}
+
+.link {
+  text-decoration: none;
+  color: #aa21ff;
+  transition: color .2s ease-out;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+@import './components/Section.scss';
+@import './components/Tag.scss';
