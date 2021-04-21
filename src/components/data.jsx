@@ -114,7 +114,7 @@ const data = {
       project: 'BEA',
       type: 'website',
       url: 'https://eu.beasensors.com/',
-      year: 2018,
+      year: 2017,
     },
     {
       project: 'Mobitec',
@@ -126,19 +126,19 @@ const data = {
       project: 'Devillers',
       type: 'website',
       url: 'https://dvf.be/',
-      year: 2018,
+      year: 2017,
     },
     {
       project: 'CE+T Power',
       type: 'website',
       url: 'https://cet-power.com/',
-      year: 2018,
+      year: 2019,
     },
     {
       project: 'HEC Digital Lab',
       type: 'website',
       url: 'https://digitallab.be/',
-      year: 2018,
+      year: 2019,
     },
     {
       project: 'UITP',
@@ -150,7 +150,7 @@ const data = {
       project: 'Digital Europe',
       type: 'website',
       url: 'https://www.digitaleurope.org/',
-      year: 2019,
+      year: 2018,
     },
     {
       project: 'Domaine de bronromme',
@@ -162,7 +162,7 @@ const data = {
       project: 'Liege airport',
       type: 'website',
       url: 'https://www.liegeairport.com/',
-      year: 2017,
+      year: 2016,
     },
     {
       project: 'iBilly',
