@@ -11,6 +11,11 @@ const data = {
       category: 'css',
     },
     {
+      title: 'CSS Architecture (BEM, SMACSS)',
+      start: 2014,
+      category: 'css',
+    },
+    {
       title: 'CSS Frameworks (Bootstrap, Foundation, Bulma)',
       start: 2014,
       category: 'css',
@@ -22,8 +27,13 @@ const data = {
     },
     {
       title: 'Javascript - ES6',
-      start: 2016,
+      start: 2015,
       category: 'javascript',
+    },
+    {
+      title: 'Version Control Systems (Git, Github, Gitlab)',
+      start: 2015,
+      category: 'vcs',
     },
     {
       title: 'Linters / Formatters (prettier, eslint, scsslint)',
@@ -54,6 +64,16 @@ const data = {
       title: 'State Management Library (VueX)',
       start: 2017,
       category: 'javascript',
+    },
+    {
+      title: 'Desktop Applications (Electron)',
+      start: 2019,
+      category: 'desktop-applications',
+    },
+    {
+      title: 'GraphQL',
+      start: 2019,
+      category: 'API',
     },
     {
       title: 'Type Checkers (TypeScript)',
