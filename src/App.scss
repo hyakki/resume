@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto+Condensed:wght@700&display=swap');
 $spacing: 2rem;
 
+$fb-mobile: 0.9rem;
 $fb: 1rem;
 $pr: .5;
 
 .app {
   padding: 6.5vw 0;
-  font-size: $fb;
+  font-size: $fb-mobile;
   font-family: 'Roboto Mono', monospace;
 
-  @media print { font-size: $fb * $pr; }
+  @media (min-width: 800px) {
+    padding: 60px 0;
+    font-size: $fb;
+  }
+  @media print {
+    font-size: $fb * $pr;
+    padding: 0;
+  }
 
   h1, h2 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -18,8 +26,9 @@ $pr: .5;
   }
 
   h1 {
-    font-size: $fb * 2.6;
+    font-size: $fb-mobile * 2.6;
 
+    @media (min-width: 800px) { font-size: $fb * 2.6; }
     @media print { font-size: $fb * 2.6 * $pr; }
 
     small {
@@ -29,14 +38,16 @@ $pr: .5;
   }
 
   h2 {
-    font-size: $fb * 2.6;
+    font-size: $fb-mobile * 2.6;
 
+    @media (min-width: 800px) { font-size: $fb * 2.6; }
     @media print { font-size: $fb * 2.6 * $pr; }
   }
 
   h3 {
-    font-size: $fb * 1.4;
+    font-size: $fb-mobile * 1.4;
 
+    @media (min-width: 800px) { font-size: $fb * 1.4; }
     @media print { font-size: $fb * 1.4 * $pr; }
   }
 }
@@ -45,6 +56,11 @@ $pr: .5;
   width: 87%;
   max-width: 640px;
   margin: 0 auto;
+
+  @media print {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 .section {
@@ -57,7 +73,11 @@ $pr: .5;
   }
 
   & + & {
-    margin-top: $spacing * 3;
+    margin-top: $spacing * 2;
+
+    @media (min-width: 800px) {
+      margin-top: $spacing * 3;
+    }
 
     @media print { margin-top: $spacing * 3 * $pr; }
   }
@@ -77,6 +97,8 @@ $pr: .5;
 }
 
 .list__item {
+  break-inside: avoid;
+
   & + & {
     margin-top: $spacing / 2;
 
@@ -101,7 +123,7 @@ $pr: .5;
 
 .link {
   text-decoration: none;
-  color: #aa21ff;
+  color: #0046c5;
   transition: color .2s ease-out;
 
   &:hover {
