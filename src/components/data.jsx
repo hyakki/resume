@@ -230,8 +230,11 @@ const data = {
     },
   ],
   infos: [
-    'I\'ve a lot of passions. Animes/mangas, tv shows/movies, mechanical keyboard/computer hardware.',
-    'I\'ve a ot of passions. Animes/mangas, tv shows/movies, mechanical keyboard/computer hardware.',
+    'My mechanical keyboards are "homemade". I build/flash them to be able to decide the style, colors, layout... I even started to mod my mice to make them quieter for my gaming sessions in the living room!',
+    'Atari ST was my first console and I bought all the existing ones since then. I own a huge collection of videogames (~2000).',
+    'I have a library of franco-belgian comic strips, american comics and mangas.',
+    'I love to travel. A journey to Japan has changed my vision of the life and I think every culture deserves to be discovered. The next trip will be to Iceland.',
+    'I can\'t work without music. Over the years I\'ve bought high-end audio gears to make the most of streaming platforms such as Qobuz',
   ]
 }
 
