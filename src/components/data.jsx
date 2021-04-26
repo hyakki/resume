@@ -109,14 +109,14 @@ const data = {
       end: 'November 2020',
     },
     {
-      job: 'Web Developer & Graphic Designer',
+      job: 'Fullstack Developer & Graphic Designer',
       company: 'Agence Kalipso',
       location: 'Mons',
       start: 'October 2014',
       end: 'December 2015',
     },
     {
-      job: 'Web Developer & Graphic Designer',
+      job: 'Graphic Designer',
       company: 'SACE Asbl - Couveuse entreprise',
       location: 'Charleroi',
       start: '2012',

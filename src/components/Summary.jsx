@@ -6,7 +6,7 @@ class Summary extends React.Component {
     const age = moment().diff('1986-04-21', 'years')
 
     return (
-      <>
+      <div className="max-width-print">
         <p>
           I'm Maxime, also known under the nickname "hyakki".<br />
           I'm a {age} years old belgian creative developer. Born in Charleroi and currently living near Brussels.<br />
@@ -17,7 +17,7 @@ class Summary extends React.Component {
         <p>
           I've worked for many companies, clients and brands to satisfy their needs and deliver the best product/service to their end-users.
         </p>
-      </>
+      </div>
     )
   }
 }

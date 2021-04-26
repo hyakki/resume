@@ -14,7 +14,7 @@ class Info extends React.Component {
         })
 
     return (
-      <ul className="list">{listItems}</ul>
+      <ul className="list max-width-print">{listItems}</ul>
     )
   }
 }

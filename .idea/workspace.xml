@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469a6fdc-9b77-4487-8df9-b12ceb4244c1" name="Default Changelist" comment="">
+    <list default="true" id="469a6fdc-9b77-4487-8df9-b12ceb4244c1" name="Default Changelist" comment="Improve summary">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Summary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Summary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1rQS1xPqVMmFpH99aUFGvNYnGj4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,11 +59,36 @@
       <workItem from="1619168363429" duration="1125000" />
       <workItem from="1619182235584" duration="2143000" />
       <workItem from="1619334678508" duration="3945000" />
-      <workItem from="1619420891238" duration="893000" />
+      <workItem from="1619420891238" duration="1024000" />
+      <workItem from="1619422788313" duration="372000" />
     </task>
+    <task id="LOCAL-00001" summary="Improve summary">
+      <created>1619421829215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619421829215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Improve summary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve summary" />
   </component>
 </project>
