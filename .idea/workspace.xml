@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="469a6fdc-9b77-4487-8df9-b12ceb4244c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Summary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Summary.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,7 +47,8 @@
       <workItem from="1619165754891" duration="836000" />
       <workItem from="1619168363429" duration="1125000" />
       <workItem from="1619182235584" duration="2143000" />
-      <workItem from="1619334678508" duration="3127000" />
+      <workItem from="1619334678508" duration="3945000" />
+      <workItem from="1619420891238" duration="893000" />
     </task>
     <servers />
   </component>
