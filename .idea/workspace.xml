@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469a6fdc-9b77-4487-8df9-b12ceb4244c1" name="Default Changelist" comment="Improve summary">
+    <list default="true" id="469a6fdc-9b77-4487-8df9-b12ceb4244c1" name="Default Changelist" comment="Improve line wrap for print version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Summary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Summary.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,9 @@
       <workItem from="1619182235584" duration="2143000" />
       <workItem from="1619334678508" duration="3945000" />
       <workItem from="1619420891238" duration="1024000" />
-      <workItem from="1619422788313" duration="372000" />
+      <workItem from="1619422788313" duration="485000" />
+      <workItem from="1619794833172" duration="89000" />
+      <workItem from="1619795605399" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Improve summary">
       <created>1619421829215</created>
@@ -69,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619421829215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improve line wrap for print version">
+      <created>1619423232181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619423232181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improve summary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve summary" />
+    <MESSAGE value="Improve line wrap for print version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve line wrap for print version" />
   </component>
 </project>
