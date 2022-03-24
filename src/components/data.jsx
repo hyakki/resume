@@ -94,11 +94,7 @@ const data = {
     {
       name: 'English',
       level: 'Fluent',
-    },
-    {
-      name: 'Japanese',
-      level: 'Learning',
-    },
+    }
   ],
   pro: [
     {
