@@ -4,7 +4,7 @@ class Intro extends React.Component {
   render() {
     return (
       <>
-        <h1>Maxime PARISSE <small>Senior Front-End Developer</small></h1>
+        <h1>Maxime PARISSE <small>Production Director</small></h1>
         <p>
           Based on Evere (Bruxelles) - Belgium<br />
           <a className="link" href="mailto:me@hyakki.io">me@hyakki.io</a><br />
