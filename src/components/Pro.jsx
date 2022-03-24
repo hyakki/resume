@@ -15,7 +15,7 @@ class Pro extends React.Component {
                 {p.company} - {p.location}
               </div>
               <div className="pro__period">
-                From {p.start} to {p.end}
+                From {p.start} {p.end ? `to ${p.end}` : 'until Now'}
               </div>
             </li>
           )

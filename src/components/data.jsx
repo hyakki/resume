@@ -102,6 +102,19 @@ const data = {
   ],
   pro: [
     {
+      job: 'Production Director',
+      company: 'Idweaver',
+      location: 'Waterloo',
+      start: 'September 2021',
+    },
+    {
+      job: 'Lead Front-End Developer',
+      company: 'Idweaver',
+      location: 'Waterloo',
+      start: 'May 2021',
+      end: ' August 2021',
+    },
+    {
       job: 'Senior Front-End Developer',
       company: 'EPIC Web Agency',
       location: 'Liège',
@@ -183,12 +196,6 @@ const data = {
       type: 'website',
       url: 'https://www.liegeairport.com/',
       year: 2016,
-    },
-    {
-      project: 'iBilly',
-      type: 'website',
-      url: 'https://ibilly.co/',
-      year: 2019,
     },
     {
       project: 'Elantis',
